@@ -7,7 +7,7 @@ public class SepedaGunung extends Sepeda {
         tipeSuspensi = newValue;
     }
 
-    public void CetakStatus(){
+    public void cetakStatus(){
         super.cetakStatus();
         System.out.println("Tipe Suspensi: " + tipeSuspensi);
     }

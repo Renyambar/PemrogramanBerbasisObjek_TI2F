@@ -4,6 +4,7 @@ public class SepedaDemo {
     public static void main(String[] args) {
         Sepeda spd1 = new Sepeda();
         Sepeda spd2 = new Sepeda();
+        SepedaGunung spd3 = new SepedaGunung();
 
         spd1.setMerek("Polygone");
         spd1.tambahKecepatan(10);
@@ -17,5 +18,10 @@ public class SepedaDemo {
         spd2.gantiGear(3);
         spd2.cetakStatus();
         
+        spd3.setMerek("Klinee");
+        spd3.tambahKecepatan(5);
+        spd3.gantiGear(7);
+        spd3.setTipeSuspensi("Gas Suspension");
+        spd3.cetakStatus();
     }
 }
